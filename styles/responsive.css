@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .nav-bar{
+        margin-left: 10px;
+        margin-right:20px;
+        align-items: center;
+        
+    }
+    .header-btn-item{
+        display: none;
+    }
+
+    .h-bar{
+        display: block;
+    }
+
+}
