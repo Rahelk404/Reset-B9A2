@@ -1,0 +1,23 @@
+/* Google Font css import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+/* Universal shared style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.font {
+    font-family: "Inter", 'miami', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
