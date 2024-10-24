@@ -1,16 +1,39 @@
 @media screen and (max-width:576px) {
-    .nav-bar{
+    .nav-bar {
         margin-left: 10px;
-        margin-right:20px;
+        margin-right: 20px;
         align-items: center;
-        
+
     }
-    .header-btn-item{
+
+    .header-btn-item {
         display: none;
     }
 
-    .h-bar{
+    .h-bar {
         display: block;
     }
 
+    /* Banner related */
+    
+    /* Banner related end */
+
+    /* Your habit related style */
+
+    .run-section-head{
+        flex-direction: column;
+        gap: 20px;
+        /* padding: 20px; */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .run-text{
+        max-width: 287px;
+        width: 100%;
+    }
+
+    .run-text h1{
+        font-size: 2rem;
+    }
 }
