@@ -15,12 +15,12 @@
     }
 
     /* Banner related */
-    
+
     /* Banner related end */
 
     /* Your habit related style */
 
-    .run-section-head{
+    .run-section-head {
         flex-direction: column;
         gap: 20px;
         /* padding: 20px; */
@@ -28,12 +28,62 @@
         margin-right: 10px;
     }
 
-    .run-text{
+    .run-text {
         max-width: 287px;
         width: 100%;
     }
 
-    .run-text h1{
+    .run-text h1 {
         font-size: 2rem;
+    }
+
+    /* Your habit related end */
+
+    /* training and exercise start */
+
+
+    .training-text-head {
+        max-width: 331px;
+        ;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .image-up,
+    .image-down {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .training-text-head h1 {
+        font-size: 2rem;
+    }
+
+    .image-up-3,
+    .image-down-3 {
+        display: none;
+    }
+
+    .image-up-2 {
+        max-width: 205.95px;
+        width: 100%;
+        height: 139px;
+    }
+
+    .image-up-3 {
+        max-width: 539px;
+        width: 100%;
+        height: 256px;
+    }
+
+    .image-down-2 {
+        max-width: 365px;
+        width: 100%;
+    }
+
+    .image-down-3 {
+        max-width: 264px;
+        width: 100%;
     }
 }
