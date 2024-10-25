@@ -106,4 +106,23 @@
     }
 
     
+
+    /* BMI calculator END */
+
+    /* Our team section start */
+
+    .our-team-content-head{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .our-team-head h1 {
+        font-size: 32px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+   /* Meet our team section End */
+    
 }
