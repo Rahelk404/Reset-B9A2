@@ -124,5 +124,36 @@
     }
 
    /* Meet our team section End */
+   
+   /* Footer section start */
+   .footer-header , 
+   .footer-right{
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .footer-left h1 {
+    margin-bottom: 20px;
+   }
+   
+   .footer-left p{
+    margin-bottom: 30px;
+    max-width: 317px;
+   }
+
+   .footer-right{
+    gap: 30px;
+   }
+   
+   .for-pc{
+    display: none;
+   }
     
+   .for-mbl{
+    display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+   }
 }
