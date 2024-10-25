@@ -86,4 +86,24 @@
         max-width: 264px;
         width: 100%;
     }
+
+    /* bmi section start */
+
+    .bmi-main {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .bmi-title{
+        margin-bottom: 32px;
+        padding: 20px;
+    }
+    .input-field-2>input,
+    .input-field-3>input,
+    .input-field-4>input,
+    .option-main,
+    .option-main>option{
+        min-width: 0;
+    }
+
+    
 }
