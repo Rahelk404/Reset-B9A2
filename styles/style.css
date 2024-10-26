@@ -26,6 +26,9 @@ body {
 
 
 /* Shared style */
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
 
 .display-flex {
     display: flex;
@@ -131,6 +134,135 @@ body {
 
 /* Banner style start */
 
+.banner-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    max-width: 520px;
+    width: 100%;
+}
+
+.banner-text p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.btn-color {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 14px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn-color:hover {
+    background-color: lightslategrey;
+    color: #000;
+    border: 1px solid black;
+}
+
+.shape {
+    font-family: Miama;
+    font-weight: 400;
+    line-height: 90%;
+}
+
+.banner-img-head {
+    position: relative;
+}
+
+.banner-img-head img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.video-section {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    max-width: 206px;
+    width: 100%;
+    gap: 9px;
+    align-content: center;
+    position: absolute;
+    top: 72%;
+    left: -35%;
+}
+
+.work-out {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    max-width: 200px;
+    width: 100%;
+    padding: 16px 24px;
+    position: absolute;
+    bottom: 62%;
+    right: -22%;
+}
+
+.work-out h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.work-out p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.video-text h3 {
+    color: #FAFAF9;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+.video-text p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-extra2{
+    display: block;
+}
+
+.btn-extra{
+    display: none;
+}
+
 /* banner style end */
 
 
@@ -153,7 +285,7 @@ body {
     text-align: center;
     max-width: 231px;
     width: 100%;
-    
+
 }
 
 .habit-img img {
