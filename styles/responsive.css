@@ -18,7 +18,30 @@
 
     /* Banner related end */
 
-    /* Your habit related style */
+    /* Your habit related style start */
+
+    .habit-img-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .habit-img-container p{
+        margin-bottom: 36px;
+    }
+    .habit-text-head {
+        max-width: 316px;
+        width: 100%;
+    }
+
+    .habit-text-head h1 {
+        margin-bottom: 14px;
+        font-size: 32px;
+    }
+
+    /* Your habit related style end */
+
+    /* Run and exctra related style */
 
     .run-section-head {
         flex-direction: column;
@@ -26,6 +49,7 @@
         /* padding: 20px; */
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 66px;
     }
 
     .run-text {
@@ -37,7 +61,7 @@
         font-size: 2rem;
     }
 
-    /* Your habit related end */
+    /* Run and extra related end */
 
     /* training and exercise start */
 
@@ -93,25 +117,27 @@
         flex-direction: column;
         padding: 20px;
     }
-    .bmi-title{
+
+    .bmi-title {
         margin-bottom: 32px;
         padding: 20px;
     }
+
     .input-field-2>input,
     .input-field-3>input,
     .input-field-4>input,
     .option-main,
-    .option-main>option{
+    .option-main>option {
         min-width: 0;
     }
 
-    
+
 
     /* BMI calculator END */
 
     /* Our team section start */
 
-    .our-team-content-head{
+    .our-team-content-head {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 10px;
         margin-right: 10px;
@@ -123,37 +149,40 @@
         margin-right: 10px;
     }
 
-   /* Meet our team section End */
-   
-   /* Footer section start */
-   .footer-header , 
-   .footer-right{
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-   }
-   .footer-left h1 {
-    margin-bottom: 20px;
-   }
-   
-   .footer-left p{
-    margin-bottom: 30px;
-    max-width: 317px;
-   }
+    /* Meet our team section End */
 
-   .footer-right{
-    gap: 30px;
-   }
-   
-   .for-pc{
-    display: none;
-   }
-    
-   .for-mbl{
-    display: block;
-    max-width: 350px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 70px;
-   }
+    /* Footer section start */
+    .footer-header,
+    .footer-right {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-left h1 {
+        margin-bottom: 20px;
+    }
+
+    .footer-left p {
+        margin-bottom: 30px;
+        max-width: 317px;
+    }
+
+    .footer-right {
+        gap: 30px;
+    }
+
+    .for-pc {
+        display: none;
+    }
+
+    .for-mbl {
+        display: block;
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    /* Footer section end */
 }
